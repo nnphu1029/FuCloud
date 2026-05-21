@@ -31,5 +31,7 @@ README.md
 Hosted using GitHub Pages.
 
 ## Notes
-In the future, i will add css and may be js or python in this repo. Maybe i will find out some framework like reactjs or nodejs.
-My English is not really good but i will practice more. Try my best =).
+
+-In the future, i will add css and may be js or python in this repo. Maybe i will find out some framework like reactjs or nodejs.
+
+-My English is not really good but i will practice more. Try my best =).
