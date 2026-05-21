@@ -8,8 +8,11 @@ Im a Vietnamese IT student who interested in Cloud Computing. Now, Im finding ou
 ## My PC Configuration
 
 Name: HP EliteDesk 800 G5.
+
 CPU: Intel Core i5 8500T 6C6T.
+
 Ram: 8gb DDR4 2666MHz (16gb in the future =)).
+
 Storage: 120 GB NVme M2, 256 GB 2.5 SATA, 500GB HDD 2.5.
 
 ## How It Works
