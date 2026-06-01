@@ -34,4 +34,4 @@ Hosted using GitHub Pages.
 
 -In the future, i will add css and may be js or python in this repo. Maybe i will find out some framework like reactjs or nodejs.
 
--My English is not really good but i will practice more. Try my best =).
+-My English is not really good but i will practice more. Do my best =).
