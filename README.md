@@ -1,37 +1,43 @@
-# FuCloud
-My tiny personal project in university, a small web to access some services in my homelab.
+# FuCloud 🚀
 
-## Purpose
+A personal mini-project developed during my university years. **FuCloud** serves as a lightweight web interface to monitor and access various services hosted in my personal homelab.
 
-Im a Vietnamese IT student who interested in Cloud Computing. Now, Im finding out infrastructure, server, networking, cloud and hypervisor by building a small homelab.
+---
 
-## My PC Configuration
+## 📌 Purpose
 
-Name: HP EliteDesk 800 G5.
+As a Vietnamese IT student passionate about Cloud Computing, I built this project to gain hands-on experience with:
+* Infrastructure & Server Administration
+* Networking concepts
+* Hypervisors and Virtualization
 
-CPU: Intel Core i5 8500T 6C6T.
+---
 
-Ram: 8gb DDR4 2666MHz (16gb in the future =)).
+## 💻 My Hardware Configuration (The Homelab)
 
-Storage: 120 GB NVme M2, 256 GB 2.5 SATA, 500GB HDD 2.5.
+* **Machine:** HP EliteDesk 800 G5 Mini PC
+* **CPU:** Intel Core i5-8500T (6 Cores, 6 Threads)
+* **RAM:** 8GB DDR4 2666MHz *(Planning to upgrade to 16GB soon! 🤞)*
+* **Storage:** * 120GB NVMe M.2 (OS & Proxmox)
+  * 256GB 2.5" SATA SSD (Fast storage for containers)
+  * 500GB 2.5" HDD (Data backup & media)
 
-## How It Works
+---
 
-I will install Proxmox Virtual Environment, a famous open-source Debian-based hypervisor platform in my miniPC and create some Linux Containers (LXC) which install Ubuntu to deploy some small services in my purpose. One of them is trying to copy a "Google Drive" by using File Browser-an application written by Go(lang) for data storage and share this interesting thing with my friends...
+## ⚙️ How It Works & Architecture
 
-## Structure
+I use **Proxmox Virtual Environment (PVE)**, a powerful open-source Debian-based hypervisor, as the backbone of my homelab. 
+
+Inside Proxmox, I deploy multiple **Linux Containers (LXC)** running Ubuntu to host isolated services. 
+
+### Key Services:
+* **File Browser:** A self-hosted cloud storage (similar to Google Drive) written in Go. I use it to store personal data and share interesting files with my friends.
+* *(Future services will be listed here...)*
+
+---
+
+## 📂 Project Structure
 
 ```text
-index.html
-README.md
-```
-
-## Deployment
-
-Hosted using GitHub Pages.
-
-## Notes
-
--In the future, i will add css and may be js or python in this repo. Maybe i will find out some framework like reactjs or nodejs.
-
--My English is not really good but i will practice more. Do my best =).
+├── index.html   # Main web interface to access my homelab services
+└── README.md    # Project documentation
