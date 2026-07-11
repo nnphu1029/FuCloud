@@ -17,7 +17,7 @@ As a Vietnamese IT student passionate about Cloud Computing, I built this projec
 
 * **Machine:** HP EliteDesk 800 G5 Mini PC
 * **CPU:** Intel Core i5-8500T (6 Cores, 6 Threads)
-* **RAM:** 8GB DDR4 2666MHz *(Planning to upgrade to 16GB soon! 🤞)*
+* **RAM:** 16GB DDR4 2666MHz 
 * **Storage:** * 120GB NVMe M.2 (OS & Proxmox)
   * 256GB 2.5" SATA SSD (Fast storage for containers)
   * 500GB 2.5" HDD (Data backup & media)
