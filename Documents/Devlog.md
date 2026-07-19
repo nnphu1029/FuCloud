@@ -85,3 +85,39 @@ hoạt động bình thường từ mạng ngoài.
 - Viết README cho repo.
 - Cân nhắc bật lại JWT cho OnlyOffice (hiện đang tắt) nếu tìm được cách cấu hình phía Cloudreve.
 - Backup định kỳ /opt/cloudreve/data.
+
+---
+
+## [19-07-2026] - Cập nhật repo, tài liệu và kiểm thử dịch vụ trong điều kiện reboot
+
+**Mục tiêu hôm nay**
+
+- Viết lại devlog.
+- Cập nhật lại repo github.
+- Kiểm tra hoạt động của Cloudreve và OnlyOffice sau khi reboot.
+
+**Việc đã làm**
+
+- Viết lại devlog.
+- Tổ chức lại repo: xóa Update.txt, thêm folder “Services” và “Documents” để phân loại file code và tài liệu.
+- Cập nhật lại Tailscale funnel link trong file “Services/Cloudreve/index.html”.
+- Đổi tên dịch vụ từ FileBrowser sang Cloudreve.
+
+**Vấn đề gặp phải**
+
+- `(OnlyOffice)Not respond after reboot` : Cloudreve không nhận được phản hồi của OnlyOffice container, lý do là WOPI_ENABLED bị reset về false sau khi reboot LXC: do lần trước chỉ sửa tay file local.json trong container thay vì set qua biến môi trường -e WOPI_ENABLED=true khi docker run, nên entrypoint script tự sinh lại config mặc định mỗi lần container khởi động lại.
+
+**Cách giải quyết**
+
+- Tạo lại container O.O mới và set biến môi trường -e WOPI_ENABLED=true trong lệnh docke run để các lần reboot sau sẽ không còn nữa.
+
+**Kết quả**
+
+- Hoàn thành mục tiêu trong ngày.
+
+**Việc tiếp theo**
+
+- Tự cấu hình VPC lại từ đầu.
+- Backup định kỳ /opt/cloudreve/data.
+
+---
