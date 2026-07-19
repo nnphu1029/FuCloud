@@ -1,1 +1,0 @@
-21-05-2026: Try replace FileBrowser by NextCloud, find that NextCloud is not fit with this project. Back to FileBrowser
