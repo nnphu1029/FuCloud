@@ -30,14 +30,4 @@ I use **Proxmox Virtual Environment (PVE)**, a powerful open-source Debian-based
 
 Inside Proxmox, I deploy multiple **Linux Containers (LXC)** running Ubuntu to host isolated services. 
 
-### Key Services:
-* **File Browser:** A self-hosted cloud storage (similar to Google Drive) written in Go. I use it to store personal data and share interesting files with my friends.
-* *(Future services will be listed here...)*
-
 ---
-
-## 📂 Project Structure
-
-```text
-├── index.html   # Main web interface to access my homelab services
-└── README.md    # Project documentation
